@@ -268,6 +268,8 @@
 #header .navbar-brand h1{
   padding: 0;
   margin: 0;
+  position: relative; 
+  top: -3px;
 }
 
 #header .navbar-nav.navbar-right >li:last-child{
