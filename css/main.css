@@ -2719,8 +2719,9 @@ span.stButton_gradient,
   margin: 10px 0;
 }
 .aran-poster{
-  margin-left: 0px;
-  position: absolute;
-  margin-top: 0px;
+  padding: 0;
+  margin: 0;
+  position: relative; 
+  top: -3px;
 }
   
