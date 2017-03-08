@@ -751,7 +751,7 @@ ul.sub-menu {
   height: 130px;
   background-position: center;
   display: table;
-  position: static;
+  position: absolute; top:35px; LEFT:170px;
   width: 100%;
 }
 
