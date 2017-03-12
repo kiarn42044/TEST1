@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>About Us | ARAN</title>
+    <title>Contact Us | ARAN</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet"> 
     <link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
@@ -87,25 +88,19 @@
             </div>
         </div>
     </header>
-    <!--/#header-->
+    <!--/#header-->    
 
-    <section id="home-slider">
+
+    <!--/#action-->
+
+    <section id="map-section">
         <div class="container">
-            <div class="row">
-                <div class="main-slider">
-                    <div class="slide-text">
-                        <h1>Animal Rescue Action Network</h1>
-                        <p>ARAN (Animal Rescue Action Network) is a non-profit orginization founded to save the lives of impounded dogs </p>
-                        <a href="https://kiarn42044.github.io/TEST1/index.html" class="btn btn-common">Home</a>
-                    </div>
-
-                </div>
-            </div>
+            <div id="gmap"></div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
-    <!--/#home-slider-->
-	<section id="action">
+    </section> <!--/#map-section-->        
+ 
+	
+<section id="action">
         <div class="vertical-center">
              <div class="container">
                 <div class="row">
@@ -131,26 +126,12 @@
             </div>
         </div>
    </section>
-	
-    <section id="home-slider">
+<footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="main-slider">
-                    <div class="slide-text">
-                        <h1>Donate to ARAN </h1>
-                        <p>ARAN (Animal Rescue Action Network) is a non-profit orginization founded to save the lives of impounded dogs, <br> 
-				Donating helps us continue saving the lives of imprisoned animals</p>
-                        <a href="https://kiarn42044.github.io/TEST1/pricing.html" class="btn btn-common">Donate</a>
-                    </div>
-
+                <div class="col-sm-12 text-center bottom-separator">
+			<h5>These dogs were rescued from various pounds around New Zealand. Thanks to these pounds for assisting; Whanganui Pound, Far North District Pound, Henderson Pound, Ruapeha District Pound</h5>
                 </div>
-            </div>
-        </div>    
-    <!--/#action-->
-
-    <footer id="footer">
-        <div class="container">
-            <div class="row">              
                 <div class="col-md-4 col-sm-5">
                     <div class="testimonial bottom">
                         <h2>Testimonial</h2>
@@ -217,11 +198,12 @@
     </footer>
     <!--/#footer-->
 
-        <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="js/gmaps.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
     <script type="text/javascript" src="js/main.js"></script>   
 </body>
-	</html>
+</html>
